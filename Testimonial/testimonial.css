@@ -1,0 +1,54 @@
+body{
+    background-image: url(images/img6.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+div{
+    position: relative;
+    padding: 10px;
+    width: 50%;
+    height: 300px;
+    margin: auto;
+    background-color: rgba(247, 243, 243, 0.4);
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px black;
+}
+h1{
+    font-size: 50px;
+}
+
+img{
+    object-fit: cover;
+    border: 2px solid blueviolet;
+    border-radius: 50%;
+}
+button{
+    position: absolute;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 5px;
+    top: 50%;
+    font-weight: bold;
+    box-shadow: 1px 1px 5px black;
+}
+button:active{
+    background-color: gainsboro;
+    color: aquamarine;
+    padding: 8px 20px;
+}
+#back-btn{
+    left: 0;
+    
+}
+#next-btn{
+    right: 0;
+    
+}
+p{
+    background-color: antiquewhite;
+    font-weight: bold;
+    padding: 10px;
+    transition: 1s;
+}
