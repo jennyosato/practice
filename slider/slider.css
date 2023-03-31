@@ -1,0 +1,29 @@
+.container{
+    width: 500px;
+    height: 500px;
+    background-color: grey;
+    position: relative;
+    margin: auto;
+    background-image: url(images/img1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    transition: 1s;
+    
+}
+img{
+    object-fit: cover;
+}
+button{
+    position: absolute;
+    top: 50%;
+    padding: 10px 20px;
+    border: none;
+
+}
+#back-btn{
+    left: 0;
+}
+#btn-next{
+    right: 0;
+}

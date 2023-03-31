@@ -1,0 +1,17 @@
+.container{
+    margin: auto;
+    background-color: aqua;
+    width: 80%;
+    height: 80vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    transition: 0.5s;
+    border: 2px solid grey;
+}
+button{
+    padding: 15px;
+    background-color: grey;
+    border: none;
+    font-weight: bold;
+}
