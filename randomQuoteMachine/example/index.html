@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      let str ="xakep.co.ru";
+      let y = str.split(".").length - 1;
+      let x;
+      function urlSlice(){
+        if (y == 1){
+         x = str.slice(str.indexOf("/") + 2, str.indexOf("."))
+         return x
+        //console.log(x)
+      } else if (y == 2) {
+        let w = str.slice(0, str.indexOf(".")).length;
+        w < 12
+          ? (x = str.slice(str.indexOf(".") + 1, str.lastIndexOf(".")))
+          : (x = str.slice(str.indexOf("/") + 2, str.indexOf(".")));
+          console.log(x)
+      } else {
+         x = str.slice(str.indexOf(".") + 1);
+        let q = x.slice(0, x.indexOf("."));
+        return q;
+        console.log(q)
+      }
+      }
+      urlSlice()
+     
+    </script>
+    <!-- if(w < 12){ let x = str.slice(str.indexOf(".") + 1, str.lastIndexOf("."));
+    console.log(x) }else{ let x = str.slice(str.indexOf("/")+ 2,
+    str.indexOf(".")) console.log(x) } -->
+  </body>
+</html>

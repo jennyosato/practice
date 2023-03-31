@@ -1,0 +1,23 @@
+body{
+    background-color: goldenrod;
+}
+.container{
+    text-align: center;
+    width: 40%;
+    height: 70vh;
+    background-color: rgb(219, 169, 42);
+    border: 1px solid white;
+    margin: auto;
+    box-shadow: 1px 5px 10px 1px rgb(48, 46, 46);
+    padding-top: 100px;
+}
+button{
+    padding: 10px 30px;
+    margin: 15px;
+    font-size: 16px;
+    border: none;
+    font-weight: bold;
+}
+h2{
+    font-size: 70px;
+}
