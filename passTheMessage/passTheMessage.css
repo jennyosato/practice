@@ -1,0 +1,24 @@
+body{
+    background-color: aquamarine;
+}
+.container{
+    width: 50%;
+    background-color: rgb(223, 217, 217);
+    margin: 50px auto;
+    text-align: center;
+    padding: 30px 10px;
+}
+button{
+    display: block;
+    font-size: 15px;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: aquamarine;
+    border: none;
+    border-radius: 10px;
+    color: white;
+}
+input{
+    padding: 10px;
+    width: 80%;
+}
